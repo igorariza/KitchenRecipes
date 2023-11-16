@@ -1,18 +1,14 @@
-package com.kitchen.recipes.domain
+package com.kitchen.recipeskotlin.domain
 
 import io.mockk.impl.annotations.RelaxedMockK
 import org.junit.Assert.*
-import com.kitchen.recipes.activities.FilterFoodActivity
-import com.kitchen.recipes.data.model.ModelResponse
+import com.kitchen.recipeskotlin.data.model.ModelResponse
 import io.mockk.MockKAnnotations
 import org.junit.Before
 import org.junit.Test
 import io.mockk.coEvery
-import io.mockk.coVerify
 import kotlinx.coroutines.runBlocking
-import com.kitchen.recipes.data.network.FoodApiClient
-import org.jetbrains.annotations.Nullable
-import retrofit2.Response
+import com.kitchen.recipeskotlin.data.network.FoodApiClient
 
 class FilterFoodActivityTest {
 

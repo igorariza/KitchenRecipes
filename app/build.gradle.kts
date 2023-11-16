@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.kitchen.recipes"
+    namespace = "com.kitchen.recipeskotlin"
     compileSdk = 33
 
     dependenciesInfo {
@@ -18,11 +18,11 @@ android {
     }
 
         defaultConfig {
-        applicationId = "com.kitchen.recipes"
+        applicationId = "com.kitchen.recipeskotlin"
         minSdk = 24
         targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 3
+        versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

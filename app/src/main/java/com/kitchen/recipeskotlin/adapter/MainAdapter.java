@@ -1,4 +1,4 @@
-package com.kitchen.recipes.adapter;
+package com.kitchen.recipeskotlin.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,8 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.kitchen.recipes.R;
-import com.kitchen.recipes.data.model.ModelMain;
+import com.kitchen.recipeskotlin.R;
+import com.kitchen.recipeskotlin.data.model.ModelMain;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.kitchen.recipes.domain
+package com.kitchen.recipeskotlin.domain
 
-import com.kitchen.recipes.activities.FilterFoodActivity
-import com.kitchen.recipes.data.model.ModelFilter
+import com.kitchen.recipeskotlin.activities.FilterFoodActivity
+import com.kitchen.recipeskotlin.data.model.ModelFilter
 import io.mockk.MockKAnnotations
 import io.mockk.impl.annotations.RelaxedMockK
 import org.junit.Before

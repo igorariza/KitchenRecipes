@@ -1,4 +1,4 @@
-package com.kitchen.recipes.data.model
+package com.kitchen.recipeskotlin.data.model
 
 import java.io.Serializable
 

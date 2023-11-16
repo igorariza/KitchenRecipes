@@ -1,4 +1,4 @@
-package com.kitchen.recipes.activities
+package com.kitchen.recipeskotlin.activities
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -8,8 +8,8 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.kitchen.recipes.R
-import com.kitchen.recipes.databinding.ActivityLocationRecipeBinding
+import com.kitchen.recipeskotlin.R
+import com.kitchen.recipeskotlin.databinding.ActivityLocationRecipeBinding
 
 @Suppress("DEPRECATION")
 class LocationRecipeActivity : AppCompatActivity() {

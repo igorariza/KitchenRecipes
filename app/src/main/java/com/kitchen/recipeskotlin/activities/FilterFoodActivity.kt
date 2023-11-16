@@ -1,4 +1,4 @@
-package com.kitchen.recipes.activities
+package com.kitchen.recipeskotlin.activities
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -18,12 +18,12 @@ import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.kitchen.recipes.R
-import com.kitchen.recipes.adapter.FilterFoodAdapter
-import com.kitchen.recipes.data.model.ModelFilter
-import com.kitchen.recipes.data.model.ModelMain
-import com.kitchen.recipes.data.network.Api
-import com.kitchen.recipes.databinding.ActivityFilterFoodBinding
+import com.kitchen.recipeskotlin.R
+import com.kitchen.recipeskotlin.adapter.FilterFoodAdapter
+import com.kitchen.recipeskotlin.data.model.ModelFilter
+import com.kitchen.recipeskotlin.data.model.ModelMain
+import com.kitchen.recipeskotlin.data.network.Api
+import com.kitchen.recipeskotlin.databinding.ActivityFilterFoodBinding
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.*

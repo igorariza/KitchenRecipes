@@ -1,8 +1,7 @@
-package com.kitchen.recipes.domain
+package com.kitchen.recipeskotlin.domain
 
-import com.google.android.gms.common.api.Response
-import com.kitchen.recipes.data.model.ModelResponse
-import com.kitchen.recipes.data.network.FoodApiClient
+import com.kitchen.recipeskotlin.data.model.ModelResponse
+import com.kitchen.recipeskotlin.data.network.FoodApiClient
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.impl.annotations.RelaxedMockK

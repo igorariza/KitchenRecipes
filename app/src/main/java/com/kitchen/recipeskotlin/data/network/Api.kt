@@ -1,4 +1,4 @@
-package com.kitchen.recipes.data.network
+package com.kitchen.recipeskotlin.data.network
 
 object Api {
 

@@ -1,7 +1,7 @@
-package com.kitchen.recipes.activities
+package com.kitchen.recipeskotlin.activities
 
-import com.kitchen.recipes.data.model.ModelResponse
-import com.kitchen.recipes.data.network.FoodApiClient
+import com.kitchen.recipeskotlin.data.model.ModelResponse
+import com.kitchen.recipeskotlin.data.network.FoodApiClient
 import io.mockk.MockKAnnotations
 import io.mockk.coEvery
 import io.mockk.impl.annotations.RelaxedMockK

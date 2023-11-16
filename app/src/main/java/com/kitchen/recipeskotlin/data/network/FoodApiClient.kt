@@ -1,9 +1,9 @@
-package com.kitchen.recipes.data.network
+package com.kitchen.recipeskotlin.data.network
 
 import retrofit2.Response
 import retrofit2.http.GET
 
-import com.kitchen.recipes.data.model.ModelFilter
+import com.kitchen.recipeskotlin.data.model.ModelFilter
 import retrofit2.http.Query
 
 interface FoodApiClient {

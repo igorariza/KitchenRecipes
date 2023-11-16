@@ -1,4 +1,4 @@
-package com.kitchen.recipes.activities
+package com.kitchen.recipeskotlin.activities
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -19,11 +19,11 @@ import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.kitchen.recipes.R
-import com.kitchen.recipes.databinding.ActivityDetailRecipeBinding
-import com.kitchen.recipes.data.model.ModelDetailRecipe
-import com.kitchen.recipes.data.model.ModelFilter
-import com.kitchen.recipes.data.network.Api
+import com.kitchen.recipeskotlin.databinding.ActivityDetailRecipeBinding
+import com.kitchen.recipeskotlin.R
+import com.kitchen.recipeskotlin.data.model.ModelDetailRecipe
+import com.kitchen.recipeskotlin.data.model.ModelFilter
+import com.kitchen.recipeskotlin.data.network.Api
 import org.json.JSONException
 import org.json.JSONObject
 
@@ -104,7 +104,7 @@ class DetailRecipeActivity : AppCompatActivity() {
                             val playerArray = response.getJSONArray("meals")
                             for (i in 0 until playerArray.length()) {
                                 val temp = playerArray.getJSONObject(i)
-                                val dataApi = ModelDetailRecipe()
+                                //val dataApi = ModelDetailRecipe()
                                 val Instructions = temp.getString("strInstructions")
                                 binding.tvInstructions!!.text = Instructions
 
@@ -116,7 +116,7 @@ class DetailRecipeActivity : AppCompatActivity() {
                                 binding.tvSource!!.setOnClickListener { v: View? ->
                                     val intentYoutube = Intent(Intent.ACTION_VIEW)
                                     intentYoutube.data = Uri.parse(Source)
-                                    startActivity(intentYoutube)
+                                    //startActivity(intentYoutube)
                                 }
 
                                 val Youtube = temp.getString("strYoutube")

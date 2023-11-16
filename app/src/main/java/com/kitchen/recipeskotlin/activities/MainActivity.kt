@@ -1,4 +1,4 @@
-package com.kitchen.recipes.activities
+package com.kitchen.recipeskotlin.activities
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -17,11 +17,11 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
-import com.kitchen.recipes.R
-import com.kitchen.recipes.adapter.MainAdapter
-import com.kitchen.recipes.databinding.ActivityMainBinding
-import com.kitchen.recipes.data.model.ModelMain
-import com.kitchen.recipes.data.network.Api
+import com.kitchen.recipeskotlin.R
+import com.kitchen.recipeskotlin.adapter.MainAdapter
+import com.kitchen.recipeskotlin.databinding.ActivityMainBinding
+import com.kitchen.recipeskotlin.data.model.ModelMain
+import com.kitchen.recipeskotlin.data.network.Api
 import org.json.JSONException
 import org.json.JSONObject
 import java.util.*
