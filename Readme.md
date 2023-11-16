@@ -65,10 +65,19 @@ git clone https://github.com/igorariza/KitchenRecipes.git
       sdk.dir=/Users/user/Library/Android/sdk
    ```
 
-
 ### Ejecutar el proyecto en el emulador
    -  Seleccionar el emulador en el que se desea ejecutar el proyecto
    -  Seleccionar la opción "Run app" en Android Studio
+
+### Descargar APP de la Play Store
+   -  Abrir el siguiente enlace en el navegador del dispositivo móvil
+   -  Seleccionar la opción "Descargar"
+   -  Instalar la aplicación en el dispositivo móvil
+   -  Abrir la aplicación
+
+   ```bash
+      https://play.google.com/store/apps/details?id=com.kitchen.recipeskotlin
+   ```
 
 ## Construido con 🛠️
 
