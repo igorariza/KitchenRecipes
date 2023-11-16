@@ -114,16 +114,34 @@ class DetailRecipeActivity : AppCompatActivity() {
 
                                 val Source = temp.getString("strSource")
                                 binding.tvSource!!.setOnClickListener { v: View? ->
-                                    val intentYoutube = Intent(Intent.ACTION_VIEW)
-                                    intentYoutube.data = Uri.parse(Source)
-                                    //startActivity(intentYoutube)
+                                    Log.d("DetailRecipeActivity", v + "")
+                                    try
+                                    {
+                                        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(Source))
+                                        startActivity(browserIntent)
+                                    }
+                                    catch (e: Exception)
+                                    {   
+                                        Log.d("DetailRecipeActivity", e + "")
+                                        Toast.makeText(this@DetailRecipeActivity, "No intent available", Toast.LENGTH_SHORT).show()
+                                    }
                                 }
 
                                 val Youtube = temp.getString("strYoutube")
                                 binding.tvYoutube!!.setOnClickListener { v: View? ->
-                                    val intentYoutube = Intent(Intent.ACTION_VIEW)
-                                    intentYoutube.data = Uri.parse(Youtube)
-                                    startActivity(intentYoutube)
+                                    Log.d("DetailRecipeActivity", v + "")
+                                    try
+                                    {
+                                        val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(Youtube))
+                                        startActivity(browserIntent)
+                                    }
+                                    catch (e: Exception)
+                                    {
+                                        Log.d("DetailRecipeActivity", e + "")
+                                        Toast.makeText(this@DetailRecipeActivity, "No intent available", Toast.LENGTH_SHORT).show()
+                                    }
+                                    val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(Youtube))
+                                    startActivity(browserIntent)
                                 }
                                 val StrArea = temp.getString("strArea")
                                 binding.tvShareRecipe!!.setOnClickListener {
