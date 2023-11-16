@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "6d0de7b2-945d-4572-8056-4ab00bef1043",
+		"name": "ChikenRecipes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2700935"
+	},
+	"item": [
+		{
+			"name": "Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.themealdb.com/api/json/v1/1/categories.php",
+					"protocol": "https",
+					"host": [
+						"www",
+						"themealdb",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"v1",
+						"1",
+						"categories.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FilterCategorie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.themealdb.com/api/json/v1/1/filter.php?c=Miscellaneous",
+					"protocol": "https",
+					"host": [
+						"www",
+						"themealdb",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"v1",
+						"1",
+						"filter.php"
+					],
+					"query": [
+						{
+							"key": "c",
+							"value": "Miscellaneous"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Meals",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.themealdb.com/api/json/v1/1/lookup.php?i=52912",
+					"protocol": "https",
+					"host": [
+						"www",
+						"themealdb",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"v1",
+						"1",
+						"lookup.php"
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "52912"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
